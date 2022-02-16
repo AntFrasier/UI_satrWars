@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Awsome StarWars UI</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.min.css">
   <script src="client.js"></script>
 </head>
 
@@ -29,7 +29,7 @@
     <div id="carroussel_2">
       <div class ="text" style=" display:block;">
       <h1>Un Nouvel espoir</h1>
-      <p>C'est le premier opus de la sage Star Wars par sa date de sortie, mais la quatrième selon l'ordre chronologique de l'histoire.</p>
+      <p>C'est le premier opus de la saga Star Wars par sa date de sortie, mais la quatrième selon l'ordre chronologique de l'histoire.</p>
       </div>
       <div class ="text">
       <h1>L'empire contre-attaque</h1>
@@ -43,7 +43,6 @@
     <div class="carroussel_3">
       <h2>
         <img class="19" src="./assets/19.svg" />
-
         <img class="7" src="./assets/7.svg" />
         <img class="7" src="./assets/7.svg" />
       </h2>
@@ -52,7 +51,7 @@
 
   <div id="poster">
     <div class="carroussel_4">
-      <div class="affiche" style=" display:block;">
+      <div class="affiche active">
       <img src="./assets/affiche1.svg" />
       </div>
       <div class="affiche">
@@ -65,8 +64,8 @@
   </div>
 
   </div>
-  <div class="bottom_container"
-  <div id="nav">
+  <div class="bottom_container">
+  <!-- <div id="nav"> -->
     <div class="arrows">
       <ul>
         <li class="arrow" ><img src="./assets/arrow.svg" onclick="navigate(-1)"/></li>
@@ -75,16 +74,16 @@
     </div>
     <div class="bawls">
       <ul>
-        <li class="bawl active"><img  src="./assets/bawl.svg" /></li>
-        <li class="bawl"><img  src="./assets/bawl.svg" /></li>
-        <li class="bawl"><img  src="./assets/bawl.svg" /></li>
-        <li class="bawl"><img  src="./assets/bawl.svg" /></li>
-        <li class="bawl" ><img src="./assets/bawl.svg" /></li>
+        <li class="bawl active"><div class="ligne" style="display:none;"></div></li>
+        <li class="bawl"><div class="ligne"></div></li>
+        <li class="bawl"><div class="ligne"></div></li>
+        <li class="bawl"><div class="ligne"></div></li>
+        <li class="bawl"><div class="ligne"></div></li>
       </ul>
     </div>
-  </div>
+  <!-- </div> -->
 
 </div>
-</div>
+
 </body>
 </html>
